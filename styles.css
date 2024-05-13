@@ -1,0 +1,56 @@
+/*
+
+mkdir (make directory) - create folder
+ls (list down files) -create file
+cd (change directory) - makapasok sa file mismo
+touch - creates a file
+
+
+* is a universal selector
+h1, p are example of type selector; multiple selector if 2 or more (joint by a comma)
+bootstraps uses class names, 
+Id is a unique identifier
+Press Command + / to comment
+
+has 2 types of containers
+container - bootstrap uses maximum width
+container-fluid - bootstrap, mawawala yung space hehe, will occupy 100% of the containers
+text-center - bootstrap centers text
+mt-5 - nagkaroon ng margin top 5 (1 to 5 sa bootstrap pinakamalaki 5)
+image-fluid - nagiging fluid yung image, hindi sosobra sa container
+btn-lg - button large
+btn btn-primary
+
+bootstrap:
+https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start
+
+svg backgrounds:
+https://www.svgbackgrounds.com/search/backgrounds
+*/
+
+body{
+	background-color: #FBFBFB;
+}
+#header{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+#line_introduction{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 250;
+  	font-style: italic;
+}
+#profile{
+	width: 150px;
+	border-radius: 25%;
+	box-shadow: 1px 1px 7px;
+	#border: 2px solid #116641;
+}
+#landing{ //this is the section containing all the elements
+	/*
+	> if we use "display: flex;" the elements will be placed together in rows by default
+	> to change the direction, use flex-direction i.e. "flex-direction: column;"
+	> "align-items: center;" arranges the items vertically, y-axis
+	> "justify content: center;" arranges the content horizontally, x-axis
+	*/
+}
